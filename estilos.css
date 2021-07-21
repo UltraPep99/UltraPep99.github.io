@@ -1,0 +1,203 @@
+body{
+    background:url("Assets/SawdustAndTools.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+    color: turquoise;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+    background-color:transparent;
+}
+
+section{
+    background-color: transparent;
+}
+h1{
+    font-family: "Homer Simpson UI";
+    color: aqua;
+}
+h2, h3, h4, h5, h6, p, a, span{
+    
+    font-family: "Segoe UI";
+    color: darkturquoise;
+    padding: 5px;
+    margin: 5px;
+}
+
+p{
+    color: white;
+}
+input{
+    border-radius: 5px;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+footer a{
+    list-style: none;
+    display: flex;
+}
+form{
+    background: #999;
+    border-radius: 5px;
+    color: #EDE8DF;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+/*Para los productos*/
+#products {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#products td, #products th {
+  border: 1px solid #e0ffff;
+  padding: 8px;
+}
+/* Solo aplica a los even (par)*/
+#products tr:nth-child(even){
+    background-color: burlywood;
+    color: white;
+}
+/* Cuando se pasa por encima el cursor*/
+#products tr:hover {
+    background-color: red;
+    color: azure;
+}
+
+#products th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: lightcyan;
+  color: brown;
+}
+/* Para el nav*/
+nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+#logo {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+nav ul li a{
+    padding: 0;
+    color: azure;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+nav ul li a:hover{
+    background: green;
+    color: azure;
+    font-weight: bold;
+}
+.contenedor{
+    width: 1100px;
+    margin: 0 auto;
+}
+#navegacionTop{
+    background:url("Assets/BannerImperatore.jpg");
+    position: fixed;
+    top: 20px;
+    width: 60%;
+    z-index: 1;
+}
+#navegacionTop .wrap{
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+/* Para el footer*/
+.bg2{
+    background-color: darkcyan;
+}
+.contenedores{
+    width: 95%;
+    margin: 0 auto;
+}
+.c2{
+    color: #999
+}
+.redes-sociales a{
+    background-color: #15a4fa;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.redes-sociales a i{
+    color: white;
+    
+}
+
+/*Mosaico de Imagenes*/
+.caja-galerias{
+    width: 33.33333%;
+    padding: 10px 10px;
+}
+.caja-galerias img{
+    width: 100%;
+    display: block;
+}
+.bg1{
+    background-color: transparent;
+}
+
+#simple{
+    padding: 60px 0;
+    text-align: center;
+}
+.contenedors{
+    width: 85%;
+    margin: 0 auto;
+}
+.c1{
+    color: #2d3950;
+}
+.fs40{
+    font-size: 40px;
+}
+.pd90{
+    padding: 90px 0;
+}
+.fila{
+    display: flex;
+    margin-bottom: 0px;
+}
